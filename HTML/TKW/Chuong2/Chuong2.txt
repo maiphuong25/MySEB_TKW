@@ -1,0 +1,443 @@
+1. Tạo tiêu đề 
+    <h1>Đây là tiêu đề lớn nhất</h1>
+    <h2>Đây là tiêu đề thứ hai</h2>
+    <h3>Đây là tiêu đề thứ ba</h3>
+
+2. Tạo đoạn văn
+    <p>Đây là một đoạn văn.</p>
+
+3. Thêm liên kết
+    <a href="https://example.com">Nhấn vào đây để đến Example.com</a>
+
+4. Thêm hình ảnh
+    <img src="https://example.com/image.jpg" alt="Mô tả hình ảnh">
+
+5. Tạo danh sách không thứ tự
+    <ul>
+  <li>Mục 1</li>
+  <li>Mục 2</li>
+  <li>Mục 3</li>
+    </ul>
+
+6. Tạo danh sách có thứ tự
+    <ol>
+    <li>Mục 1</li>
+    <li>Mục 2</li>
+    <li>Mục 3</li>
+    </ol>
+
+7. Thêm bảng
+    <table border="1">
+    <tr>
+        <th>Cột 1</th>
+        <th>Cột 2</th>
+    </tr>
+    <tr>
+        <td>Giá trị 1</td>
+        <td>Giá trị 2</td>
+    </tr>
+    </table>
+
+8. Tạo form đơn giản
+    <form action="/submit" method="POST">
+    <label for="name">Tên:</label>
+    <input type="text" id="name" name="name"><br><br>
+    <input type="submit" value="Gửi">
+    </form>
+
+9. Nhúng video
+    <video width="320" height="240" controls>
+    <source src="movie.mp4" type="video/mp4">
+    Trình duyệt của bạn không hỗ trợ thẻ video.
+    </video>
+
+10. Nhúng audio
+    <audio controls>
+    <source src="song.mp3" type="audio/mpeg">
+    Trình duyệt của bạn không hỗ trợ thẻ âm thanh.
+    </audio>
+
+------------
+ĐỊNH DẠNG - STYLE
+1. In đậm
+    <b>Nội dung in đậm</b>
+    <strong>Nội dung quan trọng in đậm</strong>
+
+2. In nghiêng
+    <i>Nội dung in nghiêng</i>
+    <em>Nội dung quan trọng in nghiêng</em>
+
+3. Gạch chân
+    <u>Văn bản được gạch chân</u>
+
+4. Gạch ngang chữ
+    <s>Văn bản bị gạch ngang</s>
+    <del>Văn bản đã bị xóa</del>
+
+5. Định dạng trên/ dưới
+    <sup>Chỉ số trên</sup>
+    <sub>Chỉ số dưới</sub>
+
+6. In code mã nguồn
+    <code>console.log('Hello World');</code>
+
+7. Trích dẫn
+    <blockquote>Đây là một trích dẫn từ tài liệu nào đó.</blockquote>
+    <q>Trích dẫn ngắn gọn</q>
+
+8. Định dạng văn bản trước
+    <pre>
+    Văn bản này sẽ giữ nguyên định dạng
+    như đã được nhập vào HTML.
+    </pre>
+
+9. Căn chỉnh văn bản
+    <p style="text-align: left;">Căn lề trái</p>
+    <p style="text-align: center;">Căn giữa</p>
+    <p style="text-align: right;">Căn lề phải</p>
+
+10 Màu và kích thước
+    <p style="color: red;">Văn bản màu đỏ</p>
+    <p style="font-size: 20px;">Văn bản kích thước lớn</p>
+    <p style="background-color: yellow;">Đây là một đoạn văn có màu nền là màu vàng.</p>
+    <h1 style="background-color: lightblue;">Đây là một tiêu đề có màu nền là màu xanh nhạt.</h1>
+    <p>
+    Đây là một đoạn văn, trong đó <span style="background-color: pink;">một phần của văn bản có nền màu hồng</span>.
+    - đổi màu nền cho cả trang web
+        </p>
+        <body style="background-color: lightgray;">
+        Đây là toàn bộ trang web với màu nền là màu xám nhạt.
+        </body>
+    - kết hợp màu nền và chữ: 
+        <p style="background-color: black; color: white;">
+        Đây là một đoạn văn có nền màu đen và chữ màu trắng.
+        </p>
+    - sd mã HEX, RGB hoặc tên màu
+        <p style="background-color: #ffcc00;">Màu nền được định nghĩa bằng mã HEX (vàng nhạt).</p>
+        <p style="background-color: rgb(0, 128, 255);">Màu nền được định nghĩa bằng RGB (xanh dương).</p>
+    - đặt màu nền với độ trong suốt
+        <p style="background-color: rgba(255, 0, 0, 0.5);">
+        Màu nền đỏ với độ trong suốt 50%.
+        </p>
+
+
+11. Phân chia phần và đoạn (div và span)
+
+    KHI NÀO DÙNG <DIV> KHI NÀO DÙNG <SPAN> 
+    - dùng div thì k ngắt dòng còn span thì ngắt dòng
+    <div style="background-color: lightgray; padding: 10px;">
+    Đây là một khối được định dạng với thẻ div
+    </div>
+
+    <span style="color: blue;">Văn bản màu xanh trong một đoạn</span>
+
+12. Danh sách (list)
+    <ul style="list-style-type: square;">
+    <li>Mục danh sách không thứ tự</li>
+    <li>Mục danh sách không thứ tự</li>
+    </ul>
+
+    <ol>
+    <li>Mục danh sách có thứ tự</li>
+    <li>Mục danh sách có thứ tự</li>
+    </ol>
+
+13. Tạo viền đơn giản
+    <div style="border: 2px solid black;">
+    Đây là một khối có viền dày 2px, màu đen và kiểu solid.
+    </div>
+
+14. Tùy chỉnh viền
+    -border-width: Độ dày của viền (px, pt, em, %)
+    -border-style: Kiểu viền (solid, dashed, dotted, double, groove, ridge, inset, outset, none, hidden)
+    -border-color: Màu sắc của viền
+
+    <div style="border-width: 4px; border-style: dashed; border-color: blue;">
+    Đây là một khối có viền màu xanh, dày 4px và kiểu viền gạch ngang (dashed).
+    </div>
+
+15. Tạo viền tròn bo góc
+    <div style="border: 2px solid red; border-radius: 10px; padding: 10px;">
+    Đây là một khối có viền bo tròn góc 10px.
+    </div>
+
+16. Tạo viền cho từng phía
+    -border-top, border-right, border-bottom, và border-left
+    
+    <div style="border-top: 5px solid green; border-left: 5px dashed orange;">
+    Khối này có viền trên màu xanh và viền trái màu cam.
+    </div>
+
+
+17. Hiệu ứng đổ bóng cho viền
+    <div style="border: 2px solid black; box-shadow: 5px 5px 10px gray;">
+    Khối này có viền màu đen và hiệu ứng đổ bóng.
+    </div>
+
+-----------
+NHÓM THẺ TABLE 
+
+1. Tạo bảng
+    <table>
+    <!-- Nội dung của bảng -->
+    </table>
+
+2. Tạo hàng trong bảng
+    <tr>
+    <!-- Nội dung hàng -->
+    </tr>
+
+3. Tạo tiêu đề của một cột hoặc hàng trong bảng
+    <th>Tiêu đề cột</th>
+
+4.  Tạo một ô dữ liệu trong bảng
+    <td>Nội dung ô</td>
+
+5. Thẻ <thead> dùng để nhóm các tiêu đề của bảng 
+(dùng chung với <tr> và <th>). 
+Giúp tách phần tiêu đề với nội dung bảng.
+    <thead>
+    <tr>
+        <th>Tiêu đề 1</th>
+        <th>Tiêu đề 2</th>
+    </tr>
+    </thead>
+
+6. hẻ <tbody> dùng để nhóm các hàng chứa nội dung chính của bảng.
+    <tbody>
+    <tr>
+        <td>Dữ liệu 1</td>
+        <td>Dữ liệu 2</td>
+    </tr>
+    </tbody>
+
+7. Thẻ <tfoot> dùng để nhóm các hàng ở phần chân bảng. 
+Phần này thường chứa các thông tin tổng kết hoặc ghi chú cuối bảng.
+    <tfoot>
+    <tr>
+        <td>Tổng cộng</td>
+        <td>Giá trị</td>
+    </tr>
+    </tfoot>
+
+8. Thẻ <caption> dùng để tạo tiêu đề cho bảng. 
+Tiêu đề bảng thường nằm phía trên bảng và mô tả ngắn gọn nội dung của bảng.
+    <caption>Tiêu đề của bảng</caption>
+
+9. Ví dụ
+<table border="1">
+  <caption>Bảng Thông Tin Học Sinh</caption>
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Tên</th>
+      <th>Lớp</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Nguyễn Văn A</td>
+      <td>10A1</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Trần Thị B</td>
+      <td>10A2</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="3">Tổng số học sinh: 2</td>
+    </tr>
+  </tfoot>
+</table>
+
+10. Tạo viền bên trong bảng
+    <table style="border-collapse: collapse;">
+    <tr>
+        <td style="border: 1px solid black;">Ô 1</td>
+        <td style="border: 1px solid black;">Ô 2</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid black;">Ô 3</td>
+        <td style="border: 1px solid black;">Ô 4</td>
+    </tr>
+    </table>
+
+11. Tạo viền cho bảng 
+    <table style="border: 2px solid black;">
+    <thead>
+        <tr>
+        <th style="border: 1px solid black;">Tiêu đề 1</th>
+        <th style="border: 1px solid black;">Tiêu đề 2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td style="border: 1px solid black;">Dữ liệu 1</td>
+        <td style="border: 1px solid black;">Dữ liệu 2</td>
+        </tr>
+    </tbody>
+    </table>
+
+12. Khoảng cách giữa các ô
+    <table style="border-spacing: 10px;">
+    <!-- Nội dung bảng -->
+    </table>
+
+13. Gộp viền các ô lại với nhau
+    <table style="border-collapse: collapse; border: 2px solid black;">
+    <thead>
+        <tr>
+        <th style="border: 1px solid black;">Tiêu đề 1</th>
+        <th style="border: 1px solid black;">Tiêu đề 2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td style="border: 1px solid black;">Dữ liệu 1</td>
+        <td style="border: 1px solid black;">Dữ liệu 2</td>
+        </tr>
+    </tbody>
+    </table>
+
+14. Căn chỉnh nội dung trong ô
+    <table border="1">
+    <tr>
+        <th style="text-align: left;">Tiêu đề 1 (Căn trái)</th>
+        <th style="text-align: center;">Tiêu đề 2 (Căn giữa)</th>
+        <th style="text-align: right;">Tiêu đề 3 (Căn phải)</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top;">Dữ liệu 1 (Căn trên)</td>
+        <td style="vertical-align: middle;">Dữ liệu 2 (Căn giữa)</td>
+        <td style="vertical-align: bottom;">Dữ liệu 3 (Căn dưới)</td>
+    </tr>
+    </table>
+
+15. Thêm màu nền cho bảng hoặc ô
+    <table border="1">
+    <thead>
+        <tr style="background-color: lightblue;">
+        <th>Tiêu đề 1</th>
+        <th>Tiêu đề 2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td style="background-color: yellow;">Dữ liệu 1</td>
+        <td style="background-color: lightgreen;">Dữ liệu 2</td>
+        </tr>
+    </tbody>
+    </table>
+
+16. Thêm khoảng cách bên trong ô
+    <table border="1">
+    <tr>
+        <td style="padding: 10px;">Dữ liệu với khoảng cách bên trong ô</td>
+        <td style="padding: 20px;">Dữ liệu với khoảng cách lớn hơn</td>
+    </tr>
+    </table>
+
+17. Điều chỉnh độ rộng và chiều cao của cột và hàng
+    <table border="1">
+    <tr>
+        <td style="width: 200px; height: 50px;">Ô có độ rộng 200px và chiều cao 50px</td>
+        <td style="width: 100px; height: 100px;">Ô có độ rộng 100px và chiều cao 100px</td>
+    </tr>
+    </table>
+
+18. Tạo bảng có các hàng có màu xen kẽ
+    <table border="1">
+    <tr style="background-color: lightgray;">
+        <td>Dữ liệu 1</td>
+        <td>Dữ liệu 2</td>
+    </tr>
+    <tr>
+        <td>Dữ liệu 3</td>
+        <td>Dữ liệu 4</td>
+    </tr>
+    <tr style="background-color: lightgray;">
+        <td>Dữ liệu 5</td>
+        <td>Dữ liệu 6</td>
+    </tr>
+    </table>
+
+19. colspan: gộp nhiều ô gần nhau thành 1 cột
+    rowspan: gộp nhiều ô gần nhau thành 1 hàng
+
+-----
+NHÓM THẺ SEMANTIC HTML
+Thẻ <header>
+ Chứa những thông tin giới thiệu về trang web hoặc thanh điều hướng. Một trang web có
+thể có nhiều thẻ <header>;
+
+ Thẻ <footer>
+ Chứa những thông tin về thông tin liên hệ, thông tin bản quyền,... Một trang web có thể có
+nhiều thẻ <footer>;
+
+ Thẻ <main>
+ Chứa nội dung chính của trang. Một trang web chỉ có 1 thẻ <main>;
+
+Thẻ <nav>
+ Dùng để chứa liên kết, nhằm điều hướng người dùng đến những nội dung chính của
+website;
+<header>
+<nav>
+<a href="/html">HTML</a>
+<a href="/css">CSS</a>
+<a href="/js">JavaScript</a>
+<a href="/jquery">jQuery</a>
+</nav>
+</header>
+
+Thẻ <section>
+ Dùng để phân chia các phần riêng biệt của trang HTML;
+ Thẻ <article>
+ Dùng để chứa các nội dung độc lập trong trang, không phụ thuộc vào nội dung chứa trong
+trang;
+
+ Thẻ <aside>
+ Chứa thông tin phụ của trang, nội dung có thể bị xóa đi mà không làm ảnh hưởng đến nội
+dung chính của trang;
+
+---------------
+NHÓM THẺ FORMS
+
+1. Tạo 1 form
+    <form> </form>
+
+2. Định nghĩa nút lệnh
+    <button> </buton>
+
+3. Nhãn thông tin
+    <label> </label>
+
+4. Nhập liệu, kiểu giá trị theo type
+    <input type="value">
+
+5. phương thức
+    action="url": chỉ định địa chỉ mà dữ liệu biểu mẫu sẽ được gửi đến.
+    method="post": gửi dữ liệu qua phương thức POST, ẩn dữ liệu trong phần thân yêu cầu.
+    method="get": gửi dữ liệu qua phương thức GET, đưa dữ liệu vào URL.
+
+6. Các thuộc tính phổ biến
+    value: thiết lập giá trị của đối tượng
+    min, max: thiết lập giá trị min max
+    minlenght, maxlenght: thiết lập chiều dài tối thiểu và tối đa
+    required: trường yêu cầu nhập liệu
+    step: dùng với thẻ input, thiết lập giá trị bước nhảy
+    rows, cols: dùng với textarea thiết lập số dòng, cột tối đa
+    checked: dùng với input, thiết lập giá trị mặc định được chọn
+
+7. Tiêu đề nhóm
+    <fieldset>
+        <legend>Tiêu đề nhóm</legend>
+        <!-- Các trường trong nhóm -->
+    </fieldset>
+
+id và name là phần định danh - dùng 1 trong 2 
+name tương tác ở back-end 
+id tương tác ở frond-end kết nối với css
+ví dụ: <input type="radio" id="light" name="theme" value="Light" checked>

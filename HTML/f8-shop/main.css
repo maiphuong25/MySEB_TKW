@@ -1,0 +1,17 @@
+h1 {color: rgb(255, 32, 69); background: rgb(255, 219, 225) }
+            body {background: rgb(255, 255, 184)}
+
+/* có 3 cách sử dụng CSS trong HTML:
+1. Internal : sd một cặp thẻ style đặt trong file html
+2. External : tạo ra 1 file bên ngoài project, có thể sd từ link trên internet cũng được thông qua cặp thẻ link
+3. Inline : sd attribute style */
+
+#first-heading {color: purple}
+.ten { background: white}
+
+/* độ ưu tiên: internal, external: cái nào gọi ra sau thì cái đó ưu tiên
+INLINE top 1
+internal & external: top 2
+#ID top 3
+.CLASS top 4
+TAG top 5

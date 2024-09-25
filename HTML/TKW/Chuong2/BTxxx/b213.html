@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Table</title>
+</head>
+<body>
+    <table width="100%" height="100%">
+        <tr>
+            <td align="center" valign="middle">
+                <table border="0">
+                    <tr>
+                        <td align="center">
+                            <h1>Book a Table</h1>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <form>
+                                
+                                <fieldset>
+                                    <legend align="center">Your name</legend>
+                                    <div align="center">
+                                    <input type="text" id="name" name="name" required>
+                                    </div>
+                                </fieldset>
+                                <br>
+
+                                
+                                <fieldset>
+                                    <legend align="center">Sex</legend>
+                                    <div align="center">
+                                        <input type="radio" id="male" name="sex" value="male">
+                                        <label for="male">Male</label>
+                                        <input type="radio" id="female" name="sex" value="female" checked>
+                                        <label for="female">Female</label>
+                                    </div>
+                                </fieldset>
+                                <br>
+
+                                
+                                <fieldset>
+                                    <legend align="center">Size</legend>
+                                    <div align="center">
+                                        <input type="radio" id="2person" name="size" value="2-person">
+                                        <label for="2person">2-person table</label>
+                                        <input type="radio" id="4person" name="size" value="4-person" checked>
+                                        <label for="4person">4-person table</label>
+                                        <input type="radio" id="6person" name="size" value="6-person">
+                                        <label for="6person">6-person table</label>
+                                    </div>
+                                </fieldset>
+                                <br>
+
+                                
+                                <fieldset>
+                                    <legend align="center">Location</legend>
+                                    <div align="center">
+                                        <input type="radio" id="indoors" name="location" value="indoors">
+                                        <label for="indoors">Indoors</label>
+                                        <input type="radio" id="outdoors" name="location" value="outdoors" checked>
+                                        <label for="outdoors">Outdoors</label>
+                                    </div>
+                                </fieldset>
+                                <br>
+
+                                <div align="center">
+                                <button type="submit">Book table</button>
+                                </div>
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

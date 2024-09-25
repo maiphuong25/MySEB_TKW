@@ -1,0 +1,158 @@
+<form method="post" action="/search">
+    <label for="TenSanPham">Tên sản phẩm:</label>
+    <input type="text" value="abc" id="TenSanPham" name="TenSanPham">
+    <button name="btn_Tim">Tìm</button>
+</form>
+
+<label for="w3review">Review of W3Schools:</label></p>
+<textarea id="w3review" name="w3review" rows="4" cols="50" minlength="10"
+maxlength="200">
+At w3schools.com you will learn how to make a website. They offer free
+tutorials in all web development technologies.
+</textarea>
+
+<form method="get" action="/linkAnh.txt">
+    <label for="Nội dung">Nhập nội dung:</label>
+    <input type="button" value="button_name" onclick="function_onclick_event()"
+id="id_of_input" name="name_of_input">
+
+</form>
+
+<form>
+<input type="radio" id="light" name="theme" value="Light" checked>
+<label for="light">Light</label>
+<input type="radio" id="dark" name="theme" value="Dark">
+<label for="dark">Dark</label>
+</form>
+----------
+
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body style="text-align:center; ">
+        <h1 style="color:rgb(165, 30, 30)">Book a Table</h1>
+        <form  style="width:500px; height:100px; margin:auto" method ="post" action="Chuong2.txt">
+            <fieldset>
+                <legend style="font-weight:normal"> Your name </legend>
+                <input type="text" required>
+            </fieldset>
+
+            <fieldset>
+                <legend style="font-weight:normal"> Sex </legend>
+                <input type="radio" id="Male" name="Sex" value="Male" >
+                <label>Male</label>
+                <input type="radio" id="Female" name="Sex" value="Female" checked>
+                <label>Female</label>
+            </fieldset>
+
+            <fieldset>
+                <legend style="font-weight:normal"> Size </legend>
+                <input type="radio" id="2" name="Size" value="2" >
+                <label>2-person</label>
+                <input type="radio" id="4" name="Size" value="4" checked >
+                <label>4-person</label>
+                <input type="radio" id="6" name="Size" value="6">
+                <label>6-person</label>
+            </fieldset>
+
+            <fieldset>
+                <legend style="font-weight:normal"> Location </legend>
+                <input type="radio" id="In" name="Location" value="In" >
+                <label>Indoors</label>
+                <input type="radio" id="Out" name="Location" value="Out" checked>
+                <label>Outdoors</label>
+            </fieldset>
+
+            <button>Book table</button>
+            <input type="reset">
+        </form>
+    </body>
+</html>
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Table</title>
+    <style>
+        form {
+            width: 300px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        fieldset {
+            border: 1px solid black;
+            margin-bottom: 10px;
+        }
+
+        legend {
+            font-weight: bold;
+        }
+
+        label {
+            margin-right: 10px;
+        }
+
+        h1 {
+            color: darkred;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Book a Table</h1>
+
+<form action="submit-form.php" method="post" onsubmit="return validateForm()">
+
+    <fieldset>
+        <legend>Your name</legend>
+        <input type="text" id="name" name="name" required>
+    </fieldset>
+
+    <fieldset>
+        <legend>Sex</legend>
+        <label><input type="radio" name="sex" value="male"> Male</label>
+        <label><input type="radio" name="sex" value="female" checked> Female</label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Size</legend>
+        <label><input type="radio" name="size" value="2-person"> 2-person table</label>
+        <label><input type="radio" name="size" value="4-person" checked> 4-person table</label>
+        <label><input type="radio" name="size" value="6-person"> 6-person table</label>
+    </fieldset>
+
+
+    <fieldset>
+        <legend>Location</legend>
+        <label><input type="radio" name="location" value="indoors"> Indoors</label>
+        <label><input type="radio" name="location" value="outdoors" checked> Outdoors</label>
+    </fieldset>
+
+    <input type="submit" value="Book table">
+</form>
+
+<script>
+    function validateForm() {
+        var name = document.getElementById("name").value;
+        if (name == "") {
+            alert("Name must be filled out");
+            return false;
+        }
+        return true;
+    }
+</script>
+
+</body>
+</html>
+
+
+<fieldset>
+    <legend>Tiêu đề nhóm</legend>
+</fieldset> -->
