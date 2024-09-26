@@ -124,12 +124,7 @@
 11. Phân chia phần và đoạn (div và span)
 
     KHI NÀO DÙNG <DIV> KHI NÀO DÙNG <SPAN> 
-    - dùng div thì k ngắt dòng còn span thì ngắt dòng
-    <div style="background-color: lightgray; padding: 10px;">
-    Đây là một khối được định dạng với thẻ div
-    </div>
-
-    <span style="color: blue;">Văn bản màu xanh trong một đoạn</span>
+    - dùng div thì ngắt dòng còn span thì k ngắt dòng
 
 12. Danh sách (list)
     <ul style="list-style-type: square;">
