@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 640px;
+            display:flex;
+            flex-direction:column ;
+            padding: 20px 10px;
+            margin: 10px;
+            box-sizing:content-box;
+            border: px solid rgb(255, 255, 255);
+            background-color: rgb(93, 193, 184);
+            color: beige;
+        }
+        .label,.input,.button {
+            margin: 3px;
+        }
+        .button {
+            width: 20%;
+        }
+    </style>
+</head>
+<body>
+    <form class="container">
+        <label class="label">Họ tên</label>
+        <input class="input"> 
+        <label class="label" >Ngày sinh</label>
+        <input class="input" type="date" >
+        <label class="label">Email</label>
+        <input class="input">
+        <label class="label">SDT</label>
+        <input class="input">
+        <button class="button">Đăng ký</button>
+    </form>
+</body>
+</html>

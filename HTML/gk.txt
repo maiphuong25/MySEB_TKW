@@ -1,0 +1,461 @@
+Star schema chứa loại quan hệ nào giữa bảng Dimension và Fact?
+
+Data Mart khác với Data Warehouse ở điểm nào?
+Select one:
+a. Data Mart chỉ lưu trữ dữ liệu raw, trong khi Data Warehouse lưu trữ dữ liệu đã được chuyển đổi và xử lý.
+b. Data Mart không liên quan đến kiến trúc của kho dữ liệu.
+c. Data Warehouse chỉ chứa dữ liệu từ một nguồn, trong khi Data Mart có thể chứa dữ liệu từ nhiều nguồn.
+d. Data Mart tập trung vào một phần của tổ chức, trong khi Data Warehouse tập trung vào toàn bộ tổ chức.
+
+Star Schema thường được sử dụng trong lĩnh vực nào?
+Select one:
+a. Quản lý tài liệu
+b. Hệ thống giao dịch trực tuyến
+c. Kho dữ liệu và các data mart
+d. Truyền thông xã hội
+
+. Trong kiến trúc của kho dữ liệu, phần nào chịu trách nhiệm lấy dữ liệu từ các nguồn khác nhau và chuyển đổi chúng thành định dạng phù hợp cho việc lưu trữ?
+Select one:
+a. Data Lake
+b. Data Warehouse
+c. Data Staging Area
+d. Data Mart
+
+Star schema chứa loại quan hệ nào giữa bảng Dimension và Fact?
+
+Select one:
+a. Many-to-many and One-to-many
+b. One- to-one
+c. Many-to-many
+d. One-to-many
+
+Star Schema giúp tối ưu hóa điều gì?
+Select one:
+a. Khả năng truy vấn và phân tích dữ liệu
+b. Dung lượng lưu trữ
+c. Bảo mật dữ liệu
+d. Tốc độ xử lý giao dịch
+
+Kho dữ liệu thường được thiết kế để hỗ trợ loại ứng dụng nào?
+Select one:
+a. Ứng dụng xử lý phân tích trực tuyến (OLAP)
+b. Ứng dụng quản lý tài liệu
+c. Ứng dụng truyền thông xã hội
+d. Ứng dụng giao dịch trực tuyến (OLTP)
+
+Dữ liệu trong kho dữ liệu thường có đặc điểm gì?
+Select one:
+a. Được cập nhật liên tục
+b. Được tổng hợp và làm sạch
+c. Không bao giờ thay đổi
+d. Chỉ chứa dữ liệu hiện tại
+
+Star Schema thường được sử dụng trong loại hệ thống nào?
+Select one:
+a. Hệ thống xử lý phân tích trực tuyến (OLAP)
+b. Hệ thống giao dịch trực tuyến (OLTP)
+c. Hệ thống truyền thông xã hội
+d. Hệ thống quản lý tài liệu
+
+Mục đích chính của kho dữ liệu là gì?
+Select one:
+a. Tăng tốc độ xử lý giao dịch
+b. Lưu trữ dữ liệu tạm thời
+c. Hỗ trợ các ứng dụng giao dịch trực tuyến
+d. Cung cấp thông tin cho các nhà quản lý doanh nghiệp để ra quyết định chiến lược
+
+28. Trong SQL Server Integration Services (SSIS), dùng đối tượng nào để tạo ra thuộc tính Year trong thuộc tính Date?
+Select one:
+a. Order
+b. Derived Columns
+c. Merge Join
+d. Look up
+
+Đâu là loại Additivity measure?
+
+Select one:
+a. Percentage
+b. Inventory quantity
+c. Quatity
+d. Item Price
+
+Loại nào sau đây không phải là một loại siêu dữ liệu (metadata)?
+Select one:
+a. Operational Metadata
+b. Business Metadata
+c. Record Metadata
+d. Technical Metadata
+
+ác bước chính liên quan đến việc lưu trữ dữ liệu vào kho dữ liệu là gì?
+Select one:
+a. Insert, Manipulate, Remove
+b. Slice, Dice, Drill down
+c. Etract, Transform, Load
+d. Merge, Purge, Store
+
+Các bước xây dựng mô hình đa chiều (Dimensional Modelling)
+Select one:
+a. Identify Business Process, Identify Grain, Identify Dimensions, Identify Facts, Build Schema
+b. Identify Business Process, Identify data, Identify Dimensions, Identify Facts, Design ER model
+c. Identify Business Process, Identify Grain, Identify Dimensions, Identify Attributes, Build Schema
+d. Identify Business Process, Identify Grain, Identify Entities, Identify Facts, Build Schema
+
+OLAP có những hoạt động nào?
+Select one:
+a. Roll-down, Drill-down, Slice, Dice, Pivot
+b. Roll-up, Drill-down, Slice, Dice, Pivot table
+c. Roll-down, Drill-up, Slice, Dice, Pivot
+d. Roll-up, Drill-down, Slice, Dice, Pivot
+
+ Đâu là Conformed dimension, nếu các business có các dimension như sau: (1) Purchare Order: Date, Product, Customer; (2) Store Inventory: Date, Product, Store
+Select one:
+a. Purchare, Store
+b. Customer, Store
+c. Date, Product
+d. Date, Product, Customer, Store
+
+Ưu điểm của Snowflake schema so với star schema là gì?
+Select one:
+a. Giảm độ phức tạp mô hình
+b. Dễ truy vấn các bảng
+c. Giảm dung lượng lưu trữ
+d. Giảm thời gian truy vấn dữ liệu
+
+Trong kho dữ liệu, Metadata đóng vai trò gì?
+
+ 
+Select one:
+a. Dữ liệu thô chưa được xử lý.
+b. Dữ liệu được tạo ra từ quá trình phân tích.
+c. Dữ liệu chính được lưu trữ trong hệ thống.
+d. Thông tin về dữ liệu, cấu trúc và ý nghĩa của dữ liệu
+
+ Ưu điểm của RAID 1 là gì?
+Select one:
+a. Tăng độ an toàn dữ liệu
+b. Tăng thời gian ghi dữ liệu
+c. Tăng dung lượng lưu trữ
+d. Tăng thời gian truy vấn dữ liệu
+
+Mục đích chính của việc tích hợp dữ liệu trong kho dữ liệu là gì?
+Select one:
+a. Tạo ra một cơ sở dữ liệu chỉ chứa dữ liệu mới.
+b. Tạo ra một nguồn dữ liệu đa chiều để hỗ trợ phân tích và báo cáo.
+c. Tạo ra một nguồn dữ liệu độc lập.
+d. Giảm thiểu chi phí vận hành hệ thống thông tin.
+
+---------------------------------------------------------
+9. Trong kiến trúc của kho dữ liệu, phần nào chịu trách nhiệm lấy dữ liệu từ các nguồn khác nhau và chuyển đổi chúng thành định dạng phù hợp cho việc lưu trữ?
+Select one:
+a. Data Lake
+b. Data Warehouse
+c. Data Staging Area
+d. Data Mart
+Câu hỏi 3
+Câu trả lời đã được lưu
+Đạt điểm 1,0
+Đã được gắn cờXóa cờ
+Đoạn văn câu hỏi
+22. Star schema chứa loại quan hệ nào giữa bảng Dimension và Fact?
+
+Select one:
+a. Many-to-many and One-to-many
+b. One- to-one
+c. Many-to-many
+d. One-to-many
+Câu hỏi 4
+Câu trả lời đã được lưu
+Đạt điểm 1,0
+Đã được gắn cờXóa cờ
+Đoạn văn câu hỏi
+10. Data Mart khác với Data Warehouse ở điểm nào?
+Select one:
+a. Data Mart chỉ lưu trữ dữ liệu raw, trong khi Data Warehouse lưu trữ dữ liệu đã được chuyển đổi và xử lý.
+b. Data Mart không liên quan đến kiến trúc của kho dữ liệu.
+c. Data Warehouse chỉ chứa dữ liệu từ một nguồn, trong khi Data Mart có thể chứa dữ liệu từ nhiều nguồn.
+d. Data Mart tập trung vào một phần của tổ chức, trong khi Data Warehouse tập trung vào toàn bộ tổ chức.
+Câu hỏi 5
+Câu trả lời đã được lưu
+Đạt điểm 1,0
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+12. Fact Tables trong mô hình hóa theo chiều thường chứa thông tin về cái gì?
+
+ 
+Select one:
+a. Thời gian và ngày tháng.
+b. Thông tin mô tả về các yếu tố phân loại hoặc phạm vi phân tích.
+c. Dữ liệu tổng hợp được tính toán từ Dimension Tables.
+d. Dữ liệu chi tiết về các sự kiện hoặc giao dịch.
+Câu hỏi 6
+Câu trả lời đã được lưu
+Đạt điểm 1,0
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Star Schema thường được sử dụng trong lĩnh vực nào?
+Select one:
+a. Quản lý tài liệu
+b. Hệ thống giao dịch trực tuyến
+c. Kho dữ liệu và các data mart
+d. Truyền thông xã hội
+Câu hỏi 7
+Câu trả lời đã được lưu
+Đạt điểm 1,0
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Star Schema giúp tối ưu hóa điều gì?
+Select one:
+a. Khả năng truy vấn và phân tích dữ liệu
+b. Dung lượng lưu trữ
+c. Bảo mật dữ liệu
+d. Tốc độ xử lý giao dịch
+Câu hỏi 8
+Câu trả lời đã được lưu
+Đạt điểm 1,0
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Kho dữ liệu thường được thiết kế để hỗ trợ loại ứng dụng nào?
+Select one:
+a. Ứng dụng xử lý phân tích trực tuyến (OLAP)
+b. Ứng dụng quản lý tài liệu
+c. Ứng dụng truyền thông xã hội
+d. Ứng dụng giao dịch trực tuyến (OLTP)
+Câu hỏi 9
+Câu trả lời đã được lưu
+Đạt điểm 1,0
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Dữ liệu trong kho dữ liệu thường có đặc điểm gì?
+Select one:
+a. Được cập nhật liên tục
+b. Được tổng hợp và làm sạch
+c. Không bao giờ thay đổi
+d. Chỉ chứa dữ liệu hiện tại
+Câu hỏi 10
+Câu trả lời đã được lưu
+Đạt điểm 1,0
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Kho dữ liệu thường được thiết kế để hỗ trợ loại ứng dụng nào?
+Select one:
+a. Ứng dụng xử lý phân tích trực tuyến (OLAP)
+b. Ứng dụng giao dịch trực tuyến (OLTP)
+c. Ứng dụng truyền thông xã hội
+d. Ứng dụng quản lý tài liệu
+Câu hỏi 11
+Câu trả lời đã được lưu
+Đạt điểm 1,0
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Star Schema thường được sử dụng trong loại hệ thống nào?
+Select one:
+a. Hệ thống xử lý phân tích trực tuyến (OLAP)
+b. Hệ thống giao dịch trực tuyến (OLTP)
+c. Hệ thống truyền thông xã hội
+d. Hệ thống quản lý tài liệu
+Câu hỏi 12
+Câu trả lời đã được lưu
+Đạt điểm 1,0
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Bảng Fact thường chứa loại dữ liệu nào?
+Select one:
+a. Dữ liệu định lượng
+b. Dữ liệu định tính
+c. Dữ liệu tạm thời
+d. Dữ liệu mô tả
+Câu hỏi 13
+Câu trả lời đã được lưu
+Đạt điểm 1,0
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Mục đích chính của mô hình đa chiều là gì?
+Select one:
+a. Quản lý tài liệu
+b. Tăng tốc độ xử lý giao dịch
+c. Tối ưu hóa việc truy vấn và phân tích dữ liệu
+d. Bảo mật dữ liệu
+Câu hỏi 14
+Câu trả lời đã được lưu
+Đạt điểm 1,0
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Mục đích chính của kho dữ liệu là gì?
+Select one:
+a. Tăng tốc độ xử lý giao dịch
+b. Lưu trữ dữ liệu tạm thời
+c. Hỗ trợ các ứng dụng giao dịch trực tuyến
+d. Cung cấp thông tin cho các nhà quản lý doanh nghiệp để ra quyết định chiến lược
+Câu hỏi 15
+Câu trả lời đã được lưu
+Đạt điểm 1,0
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Dữ liệu trong kho dữ liệu được lấy từ đâu?
+Select one:
+a. Chỉ từ một nguồn dữ liệu
+b. Các nguồn dữ liệu khác nhau
+c. Từ các tài liệu quản lý
+d. Từ các tệp tạm thời
+
+28. Trong SQL Server Integration Services (SSIS), dùng đối tượng nào để tạo ra thuộc tính Year trong thuộc tính Date?
+Select one:
+a. Order
+b. Derived Columns
+c. Merge Join
+d. Look up
+Câu hỏi 17
+Câu trả lời đã được lưu
+Đạt điểm 1,0
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+18. Đâu là loại Additivity measure?
+
+Select one:
+a. Percentage
+b. Inventory quantity
+c. Quatity
+d. Item Price
+Câu hỏi 18
+Câu trả lời đã được lưu
+Đạt điểm 1,0
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+24. Loại nào sau đây không phải là một loại siêu dữ liệu (metadata)?
+Select one:
+a. Operational Metadata
+b. Business Metadata
+c. Record Metadata
+d. Technical Metadata
+Câu hỏi 19
+Câu trả lời đã được lưu
+Đạt điểm 1,0
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+14. Các bước chính liên quan đến việc lưu trữ dữ liệu vào kho dữ liệu là gì?
+Select one:
+a. Insert, Manipulate, Remove
+b. Slice, Dice, Drill down
+c. Etract, Transform, Load
+d. Merge, Purge, Store
+Câu hỏi 20
+Câu trả lời đã được lưu
+Đạt điểm 1,0
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+21. Các bước xây dựng mô hình đa chiều (Dimensional Modelling)
+Select one:
+a. Identify Business Process, Identify Grain, Identify Dimensions, Identify Facts, Build Schema
+b. Identify Business Process, Identify data, Identify Dimensions, Identify Facts, Design ER model
+c. Identify Business Process, Identify Grain, Identify Dimensions, Identify Attributes, Build Schema
+d. Identify Business Process, Identify Grain, Identify Entities, Identify Facts, Build Schema
+
+OLAP có những hoạt động nào?
+Select one:
+a. Roll-down, Drill-down, Slice, Dice, Pivot
+b. Roll-up, Drill-down, Slice, Dice, Pivot table
+c. Roll-down, Drill-up, Slice, Dice, Pivot
+d. Roll-up, Drill-down, Slice, Dice, Pivot
+Câu hỏi 22
+Câu trả lời đã được lưu
+Đạt điểm 1,0
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+25. Đâu là Conformed dimension, nếu các business có các dimension như sau: (1) Purchare Order: Date, Product, Customer; (2) Store Inventory: Date, Product, Store
+Select one:
+a. Purchare, Store
+b. Customer, Store
+c. Date, Product
+d. Date, Product, Customer, Store
+Câu hỏi 23
+Câu trả lời đã được lưu
+Đạt điểm 1,0
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+11. Trong kiến trúc của kho dữ liệu, thành phần nào chịu trách nhiệm cho việc xây dựng các báo cáo và biểu đồ phân tích từ dữ liệu trong Data Warehouse?
+Select one:
+a. OLAP (Online Analytical Processing)
+b. Data Lake
+c. Data Warehouse
+d. Data Mart
+Câu hỏi 24
+Chưa trả lời
+Đạt điểm 1,0
+Đã được gắn cờXóa cờ
+Đoạn văn câu hỏi
+30. Trong Slowly Changing Dimensions, loại chiến lược lưu trữ giá trị thay đổi sau có nhược điểm là gì?
+
+
+
+Select one:
+a. Không xác định được giá trị hiện tại
+b. Không lưu lại lịch sử giá trị
+c. Chỉ lưu lại một giá trị lịch sử
+d. Phát sinh nhiều bản ghi
+Câu hỏi 25
+Câu trả lời đã được lưu
+Đạt điểm 1,0
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+16. Thuộc tính nào nên chứa trong bảng Dimension?
+Select one:
+a. Product Name, Brand name
+b. Customer name, Quantity
+c. Product Name name, Sales
+d. Quantity, Sales
+
+. Ưu điểm của Snowflake schema so với star schema là gì?
+Select one:
+a. Giảm độ phức tạp mô hình
+b. Dễ truy vấn các bảng
+c. Giảm dung lượng lưu trữ
+d. Giảm thời gian truy vấn dữ liệu
+Câu hỏi 27
+Câu trả lời đã được lưu
+Đạt điểm 1,0
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+27. Trong kho dữ liệu, Metadata đóng vai trò gì?
+
+ 
+Select one:
+a. Dữ liệu thô chưa được xử lý.
+b. Dữ liệu được tạo ra từ quá trình phân tích.
+c. Dữ liệu chính được lưu trữ trong hệ thống.
+d. Thông tin về dữ liệu, cấu trúc và ý nghĩa của dữ liệu.
+Câu hỏi 28
+Câu trả lời đã được lưu
+Đạt điểm 1,0
+Đã được gắn cờXóa cờ
+Đoạn văn câu hỏi
+29. Trong Slowly Changing Dimensions, loại chiến lược lưu trữ giá trị thay đổi sau là gì?
+
+
+
+Select one:
+a. Type 6: (1+2+3)
+b. Type 3: Add a new dimension attribute
+c. Type 1: Overwrite the existing attribute
+d. Type 2: Add a new Dimension row
+Câu hỏi 29
+Câu trả lời đã được lưu
+Đạt điểm 1,0
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+26. Ưu điểm của RAID 1 là gì?
+Select one:
+a. Tăng độ an toàn dữ liệu
+b. Tăng thời gian ghi dữ liệu
+c. Tăng dung lượng lưu trữ
+d. Tăng thời gian truy vấn dữ liệu
+Câu hỏi 30
+Câu trả lời đã được lưu
+Đạt điểm 1,0
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+7. Mục đích chính của việc tích hợp dữ liệu trong kho dữ liệu là gì?
+Select one:
+a. Tạo ra một cơ sở dữ liệu chỉ chứa dữ liệu mới.
+b. Tạo ra một nguồn dữ liệu đa chiều để hỗ trợ phân tích và báo cáo.
+c. Tạo ra một nguồn dữ liệu độc lập.
+d. Giảm thiểu chi phí vận hành hệ thống thông tin.

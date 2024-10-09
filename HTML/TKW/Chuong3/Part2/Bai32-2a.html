@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+           align-items: stretch; 
+        }
+        .label {
+            flex: 0 0 auto;
+        }
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #box1{
+            background-color: white;
+
+        }
+        #box2 {
+            background-color: rgb(255, 146, 146);
+            width: 35%;
+        }
+        #box3 {
+            background-color: rgb(255, 255, 93);
+            width: 50%;
+        }
+        #box4 {
+            background-color: rgb(187, 113, 255);
+            width: 15%;
+        }
+    </style>
+</head>
+<body class="container">
+    <div class="label" id="box1">Prefrred dishes</div>
+    <div class="box" id="box2">35%</div>
+    <div class="box" id="box3">50%</div>
+    <div class="box" id="box4">15%</div>
+</body>
+</html>

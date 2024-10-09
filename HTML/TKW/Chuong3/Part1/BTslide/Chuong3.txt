@@ -1,0 +1,6 @@
+pt: size chữ
+px: size thẻ
+-----------
+em: kích thước phông chữ. vd: 3em
+vư: 
+ol>li {font-size:90pt}: phía sau thẻ ol là li thì áp dụng style trong ngoặc {}

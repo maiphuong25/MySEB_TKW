@@ -1,0 +1,18 @@
+Absolute units (Đơn vị tuyệt đối: Kích thước cố định - không bị thay đổi)
+1. px: điểm ảnh, độ phân giải màn hình
+2. pt
+3. cm
+4. mm
+5. inch
+6. pc
+
+Relative units (Đơn vị tương đối: kích thước thay đổi)
+1. %: chiếm ?% thẻ chứa nó
+2. rem: phụ thuộc vào thẻ html. ví dụ ở thẻ html định nghĩa font-size là 40px thì 1 rem ở thẻ h1 = 1.40=40px
+3. em: phụ thuộc vào thẻ gần nhất chứa nó có thuộc tính font-size
+4. vw: phụ thuộc vào kích thước ngang của trình duyệt
+5. vh: dọc
+6. vmin
+7. vmax
+8.ex
+9. ch
