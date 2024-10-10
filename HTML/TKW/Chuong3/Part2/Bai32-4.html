@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 100vw;
+        }
+        .containerbody {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+        }
+        .hf {
+            height: 10px;
+            flex-grow:1
+        }
+        .body{
+            flex-grow: 2;
+        }
+        .box1 {
+            order:2;
+            width: 50%;    
+        }
+        .box2 {
+            order:1;
+            width: 25%;}
+
+        .box3 {
+            order:3;
+            width: 25%;
+        }
+        .hf,.body {
+            padding:5px;
+        }
+        .hf,.box1 {
+            text-align: center;
+        }
+        .box2,.box3 {
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hf" style="background-color:rgb(255, 72, 103)">Header</div>
+        <div class="containerbody">
+            <div class=" body box1" style="background-color:rgb(158, 215, 255)">Main Content</div>
+            <div class=" body box2" style="background-color:yellow">Aside 1</div>
+            <div class=" body box3" style="background-color:rgb(245, 100, 255)">Aside 2</div>
+        </div>
+        <div class="hf" style="background-color:rgb(138, 255, 103)">Footer</div>
+    </div>
+</body>
+</html>
