@@ -1,0 +1,16 @@
+là giao diện hệ thống lưới
+
+1. Hệ thống lưới thường gặp:
+- nhiều cột
+- một cột
+- lưới midule
+- lưới đường cơ sở
+
+dù bất đối xứng hay đối xứng thì cũng mang lại sự ngăn nắp, cân bằng
+
+3 THÀNH PHẦN CHÍNH CỦA GRID CSS
+- GRID
+-ROW
+-COLLUMN: PC:12/16, tablet: 8, mobile: 4
+sd đơn vị (%)
+-GUTTER: KHOẢNG CÁCH GIỮA CÁC CỘT

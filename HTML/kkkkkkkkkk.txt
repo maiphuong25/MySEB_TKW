@@ -1,0 +1,90 @@
+Câu hỏi 1
+Muốn sửa thủ tục, cần....
+Select one:
+a. Dùng lệnh ALTER thay cho CREATE
+
+
+Câu hỏi 2
+Hãy lựa chọn các đặc điểm của thủ tục
+Select one or more:
+b. Có thể thực hiện được các lệnh DML (SELECT, INSERT, UPDATE, DELETE) 
+d. Có thể trả về nhiều giá trị 
+e. Trả về giá trị thông qua tham số 
+
+
+Câu hỏi 3
+Hãy chọn những cú pháp đúng để tạo hàm
+Select one or more:
+a.
+CREATE FUNCTION function_Name([@param data_type,…])
+RETURNS @var_name table ( col_name_1 data_type,
+     col_name_2 data_type,…)
+AS
+BEGIN
+    [Declare variables for processing]
+    {Transact-SQL statements}
+     RETURN …
+END
+
+b.
+CREATE FUNCTION function_Name([@param data_type,…])
+RETURNS data_type
+AS
+Begin
+    [Declare variables for processing]
+    {Transact-SQL statements}
+     RETURN …
+End
+
+e. CREATE FUNCTION function_Name([@param data_type,…])
+RETURNS table
+AS
+RETURN query_statement
+
+
+Câu hỏi 4
+Chọn các đặc điểm của thủ tục
+Select one or more:
+a. Có thể sử dụng lại nhiều lần
+b. Có hai loại tham số: tham số đầu vào và tham số đầu ra
+
+
+
+Câu hỏi 1
+Khi kích hoạt một trigger cho sự kiện DELETE, thì dữ liệu đang xử lý được lưu trong bảng nào?
+d. Bảng DELETED
+
+Một trigger có thể được dùng cho tối đa bao nhiêu sự kiện?
+3
+
+
+Câu hỏi 4
+Bảng INSERTED hoặc DELETED có cấu trúc....
+c. Giống bảng mà trigger đang làm việc  
+
+
+Cần phải tạo một trigger để kiểm tra tên khách hàng nhập vào có hợp hệ hay không. Loại trigger nào được sử dụng trong trường hợp này?
+. FOR/AFTER
+
+
+Bảng magic tables tồn tại trong khoảng thời gian nào?
+c. Trong thời gian trigger hoạt động 
+
+
+Có thể dùng bảng INSERTED để JOIN với các bảng thực được không?
+yes
+
+
+Trigger có thể trả về nhiều output giống như thủ tục.
+False
+
+
+Mục đích của trigger là gì?
+kiểm tra các ràng buộc phức tạp, có sử dụng dữ liệu của một hoặc nhiều bảng
+
+
+
+Bảng DELETED được sinh ra khi có hành động nào xảy ra?
+. UPDATE
+c. DELETE
+

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container {
+            display: flex;
+            flex-direction: column;
+            border: 1px solid white;
+            padding: 10px;
+            width: 640px;
+            margin: auto;
+        }
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 10px;
+        }
+
+        label {
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 98%;
+            padding: 5px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 5px;
+            font-size: 16px;
+            align-self: flex-start;
+        }
+
+        form {
+            border: 1px solid white;
+            padding: 10px;
+        }
+
+        /* Khi độ rộng lớn hơn 640px, hiển thị label và input trên cùng 1 hàng */
+        @media screen and (min-width: 640px) {
+            .flex-container {
+                background-color: teal;
+            }
+        }
+
+        @media screen and (min-width: 768px) {
+            .flex-container {
+                background-color: purple;
+            }
+            
+            .box {
+                flex-direction: row;
+                align-items: center; /* Đảm bảo label và input căn giữa theo chiều dọc */
+            }
+
+            label {
+                width: 30%; /* Label chiếm 30% độ rộng của dòng */
+                margin-bottom: 0; /* Xóa khoảng cách dưới */
+            }
+
+            input {
+                width: 70%; /* Input chiếm 70% độ rộng của dòng */
+            }
+        }
+
+        @media screen and (min-width: 1024px) {
+            .flex-container {
+                background-color: blue;
+            }
+            
+            .box {
+                flex-direction: row;
+                align-items: center; /* Đảm bảo label và input căn giữa theo chiều dọc */
+            }
+
+            label {
+                width: 30%; /* Label chiếm 30% độ rộng của dòng */
+                margin-bottom: 0; /* Xóa khoảng cách dưới */
+            }
+
+            input {
+                width: 70%; /* Input chiếm 70% độ rộng của dòng */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <form action="">
+            <div class="box box1">
+                <label for="hoten">Họ tên</label>
+                <input type="text" id="hoten">
+            </div>
+            <div class="box box2">
+                <label for="ngsinh">Ngày sinh</label>
+                <input type="date" id="ngaysinh">
+            </div>
+            <div class="box box3">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+            </div>
+            <div class="box box4">
+                <label for="sdt">SĐT</label>
+                <input type="tel" id="sdt">
+            </div>
+            <div class="box box5">
+                <button type="submit">Đăng ký</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

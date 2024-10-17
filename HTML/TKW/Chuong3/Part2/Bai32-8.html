@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #3a84e9;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .column {
+            flex: 1;
+            min-width: 300px;
+            margin: 10px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            background-color: #ff8c00;
+            padding: 10px;
+            color: white;
+        }
+        @media (max-width: 768px) {
+            .column {
+                flex: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Công ty Du lịch Suối Tiên</h1>
+    <p>Mang đến niềm vui đến cuộc sống</p>
+</header>
+
+<nav>
+    <a href="#">Giới thiệu</a>
+    <a href="#">Chương trình</a>
+    <a href="#">Hình ảnh</a>
+    <a href="#">Liên hệ</a>
+</nav>
+
+<div class="container">
+    <div class="column">
+        <h2>Giới thiệu về du lịch Đà Nẵng</h2>
+        <p>Thành phố năng động với nhiều địa danh nổi tiếng.</p>
+        <img src="#" alt="Image" style="width:100%; height:auto;">
+        <h3>Các hình ảnh nổi bật:</h3>
+        <img src="#" alt="Image" style="width:100%; height:auto;">
+        <img src="#" alt="Image" style="width:100%; height:auto;">
+    </div>
+    <div class="column">
+        <h2>Công viên Châu Á</h2>
+        <p>Vị trí: Số 1 đường Phan Đăng Lưu, Hải Châu.</p>
+        <img src="#" alt="Image" style="width:100%; height:auto;">
+    </div>
+    <div class="column">
+        <h2>Hải đăng Tiên Sa</h2>
+        <p>Vị trí: Thọ Quang, Sơn Trà, Đà Nẵng.</p>
+        <img src="#" alt="Image" style="width:100%; height:auto;">
+    </div>
+</div>
+
+<footer>
+    <p>Copyright © 2023 by Tui</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 20vw;
+        }
+        .grid-container{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-row: auto auto auto;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 100vw;
+            background-color: brown;
+        }
+        header{
+            grid-column: 1/5;
+            background-color: rgb(2, 106, 151);
+            color: white;
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+            grid-template-rows: auto;
+            padding:20px
+        }
+        .title{
+            grid-column: 1/10;
+        }
+        button{
+            font-size:xx-small;
+            border-radius: 5px;
+            border-style: hidden;
+            margin: 5px;
+            height:110%;
+        }
+        .body1{
+            grid-area: 2/1/2/5;
+            text-align: center;
+            background-color: rgb(91, 223, 223);
+            color: white;
+        }
+        .body2{
+            grid-area: 3/1/3/5;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <header>
+            <div class="title">STAR BOOTSTRAP</div>
+            <button class="button button1">PORTFOLIO</button>
+            <button class="button button2">ABOUT</button>
+            <button class="button button3">CONTAC</button>
+        </header>
+        <div class="body body1">
+            <img src="/image/—Pngtree—boy flat icon illustration vector_15612322.png">
+            <div class="text text1">START BOOTSTRAP</div>
+            <div class="text text2"></div>
+            <div class="text text3">Graphic Artist - Web Designer - Illustrator</div>
+        </div>
+        <div class="body body2">
+            <div class="text text4">PORTFOLIO</div>
+            <div class="text text5"></div>
+        </div>
+    </div>
+</body>
+</html>

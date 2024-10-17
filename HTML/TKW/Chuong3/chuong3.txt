@@ -1,0 +1,3 @@
+Khi nào dùng flexbox khi nào dùng grid layout:
+chi tiết trong trang thì dùng flexbox
+tổng thể trang dùng grid layout
