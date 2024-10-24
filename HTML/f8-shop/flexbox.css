@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -10,19 +13,46 @@ body {
 }
 .nav-list {
     display: flex;
+    flex-direction: row;
     margin: 15px;
+    list-style: none;
 }
 .nav-item {
     padding: 0px 10px;
+    margin: 5px;
 
 }
 .form-container {
-    border-top: 35px solid rgb(212, 211, 211);
-    border-bottom: 35px solid rgb(212, 211, 211);
+    padding:20px;
+    background-color:rgb(212, 211, 211) ;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
 }
-.form-input{
-    margin: 10px;
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 40vw;
+    align-items: center;
+    padding:15px
+
+    
 }
+.form__row{
+   display: flex;
+   flex-direction: row;
+   width: 35vw;
+    margin: 5px;
+    
+}
+.form__label{
+    width:30%;
+}
+.form__input{
+    width: 70%;
+}
+
 .column-layout{
     display: inline-flex
 }
@@ -34,4 +64,78 @@ body {
 }
 .sidebar-two {
     width: 25vw;
+}
+.feature-layout{
+    background-color: rgb(169, 167, 167);
+    display: flex;
+    
+}
+.feature-item{
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    margin:20px;
+}
+.wrap-layout{
+    display: flex;
+    justify-content: space-around;
+}
+.wrap-layout__item{
+    background-color: orangered;
+    width: 10vw;
+    padding:10px;
+    margin:20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.center-layout{
+    background-color:rgb(212, 211, 211) ;
+    padding: 10px 30vw;
+    text-align: center;
+}
+.center-layout__item{
+    background-color: aquamarine;
+    padding:30%;
+    text-align: center;
+}
+.chart-layout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:20px;
+    height: 150px;
+    width: 90vw;
+    align-items: flex-end;
+    
+}
+.chart-layout__item{
+    background-color: orangered;
+    height: var(--percent);
+    color: white;
+    font-size: x-small;
+    padding:0px 5px
+}
+.the-end{
+    background-color:rgb(212, 211, 211) ;
+    display: flex;
+    padding:20px 30%;
+    width: 100vw;
+    font-size: small;
+}
+.the-end__second{
+    display: flex;
+    flex-direction: column;
+}
+.the-end__first{
+    padding:10px;
+    background-color: white;
+}
+.the-end__second-one{
+    padding:10px;
+    background-color: plum;
+}
+.the-end__second-two{
+    padding:10px;
+    background-color: rgb(133, 225, 255);
 }
