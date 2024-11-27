@@ -1,0 +1,5 @@
+1. push thêm phần tử vào mảng:
+VD: mang = [1,2,3];
+    mang.push(5)
+2. lenght đếm các phần tử có trong mảng
+    mang.length()

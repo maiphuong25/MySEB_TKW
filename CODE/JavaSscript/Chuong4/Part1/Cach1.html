@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Thay thế phần tử -->
+    <h1>Cách 1: Đặt code JavaScript trong Body</h1> 
+    <p id="idViDu">Nội dung này sẽ được thay thế</p> 
+    <script> document.getElementById("idViDu").innerHTML = "Xin chào!!!"; </script>
+
+    <p id="ten">Tui ten la</p>
+    <p id="tentui">Mai Phuong</p>
+    <script>document.getElementById('ten').innerHTML
+        =document.getElementById('tentui').innerHTML;
+    </script>
+
+
+
+    
+</body>
+</html>

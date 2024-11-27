@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-rows: auto auto auto;
+    }
+    header{
+        background-color: black;
+        color: white;
+        display: grid;
+        grid-template-columns: repeat(16, 1fr) ;
+        align-items: center;
+        padding: 10px 25px;
+        width: 100vw;
+    }
+    .title{
+        font-size: 26px ;
+        grid-column: 1/8;
+    }
+    .nut{
+        font-size: 21px;
+        padding: 10px;
+    }
+    .nut1{
+        grid-column: 13/14;
+    }
+    .nut2{
+        grid-column: 14/15;
+    }
+    .nut3{
+        grid-column: 15/16;
+    }
+    .nut4{
+        grid-column: 16/17;
+    }
+    .line1{
+        display: grid;
+        padding:20px 60px;
+        
+    }
+    .img{
+        width: auto;
+        height: 250px;
+        background-color: rgb(224, 219, 219);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        color: gray;
+        border-radius: 5px;
+        
+    }
+    .text1{
+        font-size: xx-large;
+        font-weight: bold;
+        margin: 10px 0px;
+    }
+    .t3{
+        margin: 10px 0px;
+        width: 20%;
+        background-color: rgb(8, 131, 255);
+        border-style: hidden;
+        padding:10px 0px;
+        border-radius: 5px;
+        color: white;
+    }
+    .line2{
+        background-color: grey;
+        border-radius: 5px;
+        padding: 40px;
+        text-align: center;
+        margin: 10px 60px;
+    }
+    .line3{
+        display: grid;
+        grid-template-columns: auto;
+        padding: 20px 60px
+    }
+    .box{
+        border: 1px solid rgb(219, 219, 219);
+        border-radius: 5px;
+        margin: 20px 0px;
+        width: 100%;
+
+    
+    }
+    .card{
+        padding: 15px;
+    }
+    .nutbam{
+        border: 1px solid rgb(219, 219, 219);
+        padding: 10px 15px;
+        background-color: rgba(238, 238, 238, 0.422);
+    }
+    .nutt{
+        border-radius: 5px;
+        border-style: hidden;
+        background-color: rgb(25, 105, 255);
+        color: white;
+        padding:8px;
+    }
+    footer{
+        background-color: black;
+        color: white;
+        padding:40px;
+        text-align: center;
+    }
+    .ten{
+        font-size: large;
+        font-weight: bold;
+    }
+    @media (max-width:1024px) and (min-width:650px){
+        .line3{
+            display: flex;
+            
+        }
+        .box{
+            margin:5px;
+            
+            
+        }
+        .card{
+            height: 82%;
+        }
+    }
+    @media (min-width: 1025px){
+        .line1{
+            display: grid;
+        }
+    }
+
+</style>
+<body>
+    <div class="grid-container">
+        <header>
+            <div class="title">Star Bootstrap</div>
+            <div class="nut nut1">Home</div>
+            <div class="nut nut2">About</div>
+            <div class="nut nut3">Contact</div>
+            <div class="nut nut4">Secices</div>
+        </header>
+        <div class="body">
+            <div class="body-con">
+                <div class="line1">
+                    <div class="img">900 x 400</div>
+                    <div class="text1">Business Name or Tagline</div>
+                    <div class="text2">This is a template that is great for small businesses. It doesn't have too much fancy flare to it, but it makes a great use of the standard Bootstrap core components. Feel free to use this template for any project you want!</div>
+                    <button class="t3">Call to Action!</button>
+                </div>
+                <div class="line2">
+                    This call to action card is a great place to showcase some important information or display a clever tagline!
+                </div>
+                <div class="line3">
+                    <div class="box">
+                        <div class="card">
+                            <div class="ten">card One</div>
+                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</div>
+                        </div>
+                        
+                        <div class="nutbam">
+                            <button class="nutt">More Info</button>
+                        </div>
+                        
+                    </div>
+                    <div class="box">
+                        <div class="card">
+                            <div class="ten">card Two</div>
+                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem sunt quam eaque, vel, non in id dolore voluptates quos eligendi labore.</div>
+                        </div>
+                        
+                        <div class="nutbam">
+                            <button class="nutt">More Info</button>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="card">
+                            <div class="ten">card Three</div>
+                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</div>
+                        </div>
+                        
+                        <div class="nutbam">
+                            <button class="nutt">More Info</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <small class="foot">Copyright © Your Website 2023</small>
+        </footer>
+    </div>
+</body>
+</html>

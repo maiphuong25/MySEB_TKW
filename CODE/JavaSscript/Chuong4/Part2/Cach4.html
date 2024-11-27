@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thay đổi văn bản khi di chuột</title>
+    <style>
+        /* Một chút CSS để làm nổi bật từ "mau xanh" */
+        .highlight {
+            color: blue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <p id="text">
+        "mau sac", <span class="highlight" id="mau-xanh">mau xanh</span>, "mau do".
+    </p>
+
+    <script>
+        // Lắng nghe sự kiện di chuột vào từ "mau xanh"
+        const mauXanh = document.getElementById('mau-xanh');
+        const textElement = document.getElementById('text');
+
+        mauXanh.onmouseover = function() {
+            // Thay đổi nội dung của đoạn văn
+            textElement.innerHTML = textElement.innerHTML.replace("mau sac", "mau xanh");
+        };
+
+        // Lắng nghe sự kiện khi chuột rời khỏi từ "mau xanh"
+        mauXanh.onmouseout = function() {
+            // Đưa nội dung về ban đầu
+            textElement.innerHTML = textElement.innerHTML.replace("mau xanh", "mau sac");
+        };
+    </script>
+
+</body>
+</html>
