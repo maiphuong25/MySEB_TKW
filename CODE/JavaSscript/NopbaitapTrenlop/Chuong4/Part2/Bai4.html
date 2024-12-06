@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai4</title>
+    <script>
+        function divao() {
+            document.getElementById('message').textContent = 'Bạn vừa di chuột vào đoạn văn!';
+        }
+
+        function dira() {
+            document.getElementById('message').textContent = 'Bạn vừa di chuột ra ngoài đoạn văn!';
+        }
+    </script>
+</head>
+<body>
+    <p onmouseenter="divao()" onmouseout="dira()">
+        Đây là một đoạn văn. Hãy thử di chuột vào nó!
+    </p>
+    <p id="message"></p>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        img {
+            width: 200px; 
+            height: 150px;
+        }
+        .ndAnh {
+            border: 2px  solid blue;
+            padding: 3px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .tenTp {
+            font-weight: bold;margin: 10px;
+            margin-top: 1px;
+
+        }
+    </style>
+    <script>
+        function ThaydoiAnh (ndung,anhTP) {
+            document.getElementById('anh').src=anhTP;
+            document.getElementById('info').textContent=ndung;
+        }
+    </script>
+</head>
+<body>
+    <div class="tenTp">
+        <p onmouseover="ThaydoiAnh('Thủ Đô Hà Nội', '/JavaSscript/image/HaNoi.jpg')">Hà Nội</p>
+        <p onmouseover="ThaydoiAnh('Cố Đô Huế', '/JavaSscript/image/Hue.jpg')">Huế</p>
+        <p onmouseover="ThaydoiAnh('Thành Phố Đà Nẵng', '/JavaSscript/image/DaNang.jpg')">Đà Nẵng</p>
+        <p onmouseover="ThaydoiAnh('Thành Phố Hồ Chí Minh', '/JavaSscript/image/SaiGon.jpg')">TP. HCM</p>
+    </div>
+    <div class="ndAnh">
+        <img id="anh" src="/JavaSscript/image/HaNoi.jpg">
+        <p id="info">Thủ đô Hà Nội</p>
+    </div>
+</body>
+</html>

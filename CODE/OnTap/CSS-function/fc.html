@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: calc(120px/3);
+            height: auto;
+            background: rgba(225,123,90, 20);
+            }
+        a::after {
+            content: "("attr(box)")";
+        }
+    </style>
+</head>
+<body>
+    <div class="box">box</div>
+
+    <h1>CSS functions</h1>
+    <ol>
+        <li>var()</li>  <!--biến Css -->
+        <li>linear-gradient()</li> <!--trong background-->
+        <li>rgba()</li> <!-- mã màu -->
+        <li>calc()</li> <!-- tính toán-->
+        <li>attr()</li>
+    </ol>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function OnOff(isTurnOn){
+            if (isTurnOn==true){
+                document.getElementsByTagName("img")[0].src = "/JavaSscript/image/denbat.jpg";
+            }
+            else
+                document.getElementsByTagName("img")[0].src="/JavaSscript/image/dentat.jpg";
+        }
+    </script>
+</head>
+<body>
+    <img src = "/JavaSscript/image/dentat.jpg" style="width:200px ;height:300px">
+    <button onclick="OnOff(true)">Turn on </button>
+    <button onclick="OnOff(false)">Turn off </button>
+</body>
+</html>

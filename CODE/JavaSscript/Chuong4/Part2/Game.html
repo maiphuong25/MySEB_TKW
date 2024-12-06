@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function onMouse(isOver){
+            if(isOver==true){
+                document.getElementsByTagName('div')[0].style.textAlign='center';
+                document.getElementsByTagName('div')[0].style.cursor='pointer';
+            }
+                
+            else{
+                document.getElementsByTagName('div')[0].style.textAlign='right';
+                document.getElementsByTagName('div')[0].style.cursor='default';
+            }      
+        }
+    </script>
+</head>
+<body>
+    <div 
+    style="text-align: right;"
+    onmouseover="isMouse(true);">
+Van ban duoc canh le</div>
+
+</body>
+</html>

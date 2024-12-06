@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Cach2.css">
+</head>
+<!-- onload su dung cho the body-->
+<body onloat="alert('Trang web đã được tải xong!')">
+    <h1>Cách 2: Đặt code javascript trong các hàm sự kiện tương tác</h1>
+
+    <!-- onclick -->
+    <div onclick="alert('Bộ ai kêu gì cũng làm hả?!')">Bấm vô dòng này nè!!!</div>
+
+    <!-- onmouseover -->
+    <div onmouseover="alert('Ngoan!')" style="width:fit-content">Di chuột qua đây coi!</div><br><br>
+
+    <!-- onkeydown -->
+     <input id="txt" onkeydown="document.getElementById('show').innerHTML=
+                                document.getElementById('txt').value">
+     <span id="show">____________</span><br><br>
+
+     <!-- thực hành -->
+    <form id="grid_container">
+        <div class="column">
+            <label class="item" for="name">Họ tên:</label>
+            <input class="item" id="name" onkeydown="document.getElementById('namee').innerHTML=
+                                                    document.getElementById('name').value">
+            <label class="item" for="birthday">Ngày sinh:</label>
+            <input class="item" id="birthday" onkeydown="document.getElementById('birthdayy').innerHTML=
+                                                        document.getElementById('birthday').value">
+            <label class="item" for="sex">Giới tính:</label>
+            <input class="item" id="sex" onkeydown="document.getElementById('sexx').innerHTML=
+                                                    document.getElementById('sex').value">
+        </div>
+        <div class="column">
+            <label class="item hihi" for="name">Họ tên:</label>
+            <span class="item" id="namee">____________________</span>
+            <label class="item hihi" for="birthday">Ngày sinh:</label>
+            <span class="item" id="birthdayy">____________________</span>
+            <label class="item hihi" for="sex">Giới tính:</label>
+            <span class="item" id="sexx">____________________</span>
+        </div>       
+    </form>
+    
+    
+</body>
+</html>
